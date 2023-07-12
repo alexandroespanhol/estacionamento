@@ -31,7 +31,7 @@ while($um_veiculo = mysqli_fetch_assoc($todos_os_veiculo)):
         <td>
             <a href="Visualizar.php?id=<?php echo $um_veiculo['Id_veiculo'];?>"> 
             "title="Ver completo">Visualizar</a>
-            <a href="editar.php?id=<?php echo $um_veiculo['Id_viculo'];?>">
+            <a href="editar.php?id=<?php echo $um_veiculo['Id_veiculo'];?>">
                 Editar
             </a>
             <a href="deletar.php?id=<?php echo $um_veiculo['Id_veiculo'];?>">
